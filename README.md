@@ -52,6 +52,32 @@ Compile-time options allow certain hardware-specific features (such as the power
 
 ---
 
+## Hardware Differences
+
+The MemoBot firmware is designed to run both on standard Arduino boards for development and on the dedicated MemoBot PCB.
+
+### Arduino Uno / Nano / Pro Mini
+
+When running on an Arduino board:
+
+- The microcontroller is powered from a regulated supply (USB or VCC).
+- Battery voltage measurement is not representative of a real battery.
+- The battery level indicator will always report a full (or nearly full) battery.
+- Automatic power on/off is not available unless the external power latch circuit is implemented.
+
+### MemoBot PCB
+
+The production MemoBot PCB powers the ATmega328PB directly from three AAA batteries.
+
+This allows the firmware to:
+
+- Monitor the actual battery voltage using the internal ADC.
+- Display the remaining battery level.
+- Automatically shut down when the batteries become depleted.
+- Control the hardware power latch for ultra-low standby current.
+  
+---
+
 ## Programming
 
 The MemoBot firmware is compatible with ATmega328-based Arduino boards such as the Arduino Uno, Nano, and Pro Mini.
