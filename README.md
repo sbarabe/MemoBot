@@ -54,21 +54,25 @@ Compile-time options allow certain hardware-specific features (such as the power
 
 ## Programming
 
-The MemoBot PCB is programmed through its on-board 6-pin AVR ISP connector.
+The MemoBot firmware is compatible with ATmega328-based Arduino boards such as the Arduino Uno, Nano, and Pro Mini.
 
-An AVR-compatible programmer is required, such as:
+- **Arduino Uno/Nano:** Upload sketches using the onboard USB interface, or use ISP programming if preferred.
+- **Arduino Pro Mini:** Upload using a USB-to-Serial adapter or an AVR ISP programmer.
+- **MemoBot PCB:** Program through the on-board 6-pin AVR ISP header.
+
+Compatible AVR ISP programmers include:
 
 - USBasp
 - Atmel-ICE
-- Arduino configured as ISP
+- Arduino configured as an ISP programmer
 
-ISP programming is used to:
+ISP programming allows you to:
 
-- upload the firmware
-- configure the ATmega328PB fuse settings
-- update the firmware without requiring a bootloader
+- Upload the firmware
+- Configure the ATmega328PB fuse settings
+- Program the microcontroller directly, eliminating the need for a bootloader and reducing startup time.
 
-Do not power MemoBot from both the battery pack and the ISP programmer at the same time.
+> **Warning:** Do not power the MemoBot PCB from both the battery pack and the ISP programmer at the same time.
 
 ---
 
