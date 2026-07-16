@@ -29,9 +29,9 @@ This repository currently includes:
 
 - Complete MemoBot firmware
 - Arduino-compatible source code
-- Educational Fritzing schematic
-- Bill of Materials (BOM)
-- Project documentation (work in progress)
+- Educational Fritzing schematic  *(**work in progress**)*
+- Bill of Materials (BOM)         *(**work in progress**)*
+- Project documentation           *(**work in progress**)*
 
 This repository intentionally does **not** include:
 
