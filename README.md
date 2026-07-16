@@ -55,27 +55,29 @@ Compile-time options allow certain hardware-specific features (such as the power
 
 ---
 
-## Hardware Differences
+## Running on an Arduino Board
 
-The MemoBot firmware is designed to run both on standard Arduino boards for development and on the dedicated MemoBot PCB.
+The firmware supports standard Arduino-compatible boards through compile-time hardware configuration options.
 
-### Arduino Uno / Nano / Pro Mini
+Depending on the selected configuration:
 
-When running on an Arduino board:
+- Battery monitoring can be disabled.
+- Internal VCC measurement can be used when the microcontroller is powered directly from the battery.
+- An external resistor divider can be used to measure battery voltage independently of the regulated MCU supply.
+- The buzzer can be configured for either single-ended or differential drive.
+- Power latching can be disabled when no external power-latch circuit is present.
 
-- The microcontroller is powered from a regulated supply (USB or VCC).
-- Battery voltage measurement is not representative of a real battery.
-- The battery level indicator will always report a full (or nearly full) battery.
-- Automatic power on/off is not available unless the external power latch circuit is implemented.
+When an Arduino board is powered from USB or another regulated supply, internal VCC measurement reflects the regulated supply voltage rather than the battery voltage. In that case, use the external-divider option for meaningful battery monitoring, or disable battery monitoring entirely.
 
-### MemoBot PCB
+### Using the MemoBot PCB
 
-The production MemoBot PCB powers the ATmega328PB directly from three AAA batteries.
+The dedicated MemoBot PCB powers the ATmega328PB directly from three AAA batteries and includes the optional hardware supported by the firmware.
 
 This allows the firmware to:
 
-- Monitor the actual battery voltage using the internal ADC.
-- Display the remaining battery level.
+- Monitor the battery voltage using the internal VCC measurement method.
+- Display the remaining battery level using LED indicators.
+- Drive the passive piezo buzzer in differential mode for increased sound output.
 - Automatically shut down when the batteries become depleted.
 - Control the hardware power latch for ultra-low standby current.
   
