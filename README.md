@@ -1,10 +1,13 @@
-# MemoBot
+# MemoBot 
+
 
 **MemoBot** is an open-source handheld memory game designed to teach embedded programming and electronics through a complete, real-world project.
 
 Inspired by the classic electronic memory game, MemoBot combines custom hardware and firmware into an educational platform suitable for hobbyists, students, and makers interested in learning how embedded systems work.
 
 > **Project status:** Functional prototype. Firmware is stable and open source. Documentation and educational resources are currently under development.
+> 
+<img width="711" height="655" alt="image" src="https://github.com/user-attachments/assets/b49ece35-a58d-46fe-a9cb-ba67de3e6953" />
 
 ---
 
