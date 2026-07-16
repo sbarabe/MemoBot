@@ -32,8 +32,8 @@ Unlike typical Arduino examples, MemoBot demonstrates how a complete embedded pr
 
 - Complete MemoBot firmware
 - Arduino-compatible source code
-- Educational Fritzing schematic  *(**work in progress**)*
-- Bill of Materials (BOM)         *(**work in progress**)*
+- Educational Fritzing schematics  *(**work in progress**)*
+- Educational bill of materials (BOM)         *(**work in progress**)*
 - Project documentation           *(**work in progress**)*
 
 ### ✘ Not Included
@@ -49,7 +49,7 @@ Unlike typical Arduino examples, MemoBot demonstrates how a complete embedded pr
 
 In addition to the production hardware, MemoBot is being developed with an educational breadboard version built from through-hole components.
 
-The goal is to allow students to assemble, understand, modify, and experiment with the same firmware before moving to the finished hardware.
+The goal is to let students assemble, understand, modify, and experiment with the firmware before moving to the dedicated hardware.
 
 Compile-time options allow certain hardware-specific features (such as the power latch) to be disabled so the firmware can run on simplified educational circuits.
 
@@ -59,7 +59,7 @@ Compile-time options allow certain hardware-specific features (such as the power
 
 The firmware supports standard Arduino-compatible boards through compile-time hardware configuration options.
 
-Depending on the selected configuration:
+Depending on the selected hardware configuration:
 
 - Battery monitoring can be disabled.
 - Internal VCC measurement can be used when the microcontroller is powered directly from the battery.
@@ -85,13 +85,13 @@ This allows the firmware to:
 
 ## Programming
 
-The MemoBot firmware is compatible with ATmega328-based Arduino boards such as the Arduino Uno, Nano, and Pro Mini.
+The MemoBot firmware can be compiled for ATmega328-based Arduino boards such as the Uno, Nano, and Pro Mini, as well as the dedicated MemoBot PCB based on the ATmega328PB.
 
 - **Arduino Uno/Nano:** Upload sketches using the onboard USB interface, or use ISP programming if preferred.
 - **Arduino Pro Mini:** Upload using a USB-to-Serial adapter or an AVR ISP programmer.
 - **MemoBot PCB:** Program through the on-board 6-pin AVR ISP header.
 
-The dedicated **MemoBot PCB** uses an **ATmega328PB** and is intended to be programmed using **MiniCore together with an AVR ISP programmer**.
+The dedicated **MemoBot PCB** uses an **ATmega328PB** and is intended to be programmed with **MiniCore** using an AVR ISP programmer.
 
 Compatible AVR ISP programmers include:
 
@@ -109,6 +109,22 @@ ISP programming allows you to:
 
 ---
 
+## What You'll Learn
+
+MemoBot demonstrates many of the techniques used in real embedded products, including:
+
+- Finite state machines
+- Non-blocking firmware design
+- Button debouncing and event handling
+- Timer-driven audio generation
+- Battery monitoring
+- Low-power techniques
+- Hardware power latching
+- Compile-time hardware configuration
+- Modular firmware architecture
+
+---
+
 ## Roadmap
 
 Planned additions include:
@@ -116,9 +132,9 @@ Planned additions include:
 - Assembly guide
 - Hardware documentation
 - Wiring diagrams
-- Classroom exercises
-- Breadboard tutorials
 - Hardware test firmware
+- Breadboard tutorials
+- Classroom exercises
 - Additional game modes
 - 3D printable enclosure (to be determined)
 
@@ -138,4 +154,4 @@ The MemoBot firmware is licensed under the **MIT License**.
 
 Documentation, photographs, diagrams, Fritzing schematics, and other educational materials are licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**, unless otherwise noted.
 
-Production PCB design files, Gerber files, and other proprietary hardware assets are intentionally not included in this repository.
+Production PCB design files, Gerber files, and other hardware design assets are are not part of this open-source release.
