@@ -28,7 +28,7 @@ Unlike typical Arduino examples, MemoBot demonstrates how a complete embedded pr
 
 ## Repository Contents
 
-This repository currently includes:
+✔ Included
 
 - Complete MemoBot firmware
 - Arduino-compatible source code
@@ -36,7 +36,7 @@ This repository currently includes:
 - Bill of Materials (BOM)         *(**work in progress**)*
 - Project documentation           *(**work in progress**)*
 
-This repository intentionally does **not** include:
+✘ Not Included
 
 - Production PCB design files
 - Gerber files
@@ -88,6 +88,8 @@ The MemoBot firmware is compatible with ATmega328-based Arduino boards such as t
 - **Arduino Uno/Nano:** Upload sketches using the onboard USB interface, or use ISP programming if preferred.
 - **Arduino Pro Mini:** Upload using a USB-to-Serial adapter or an AVR ISP programmer.
 - **MemoBot PCB:** Program through the on-board 6-pin AVR ISP header.
+
+The dedicated **MemoBot PCB** uses an **ATmega328PB** and is intended to be programmed using **MiniCore together with an AVR ISP programmer**.
 
 Compatible AVR ISP programmers include:
 
