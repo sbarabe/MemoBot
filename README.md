@@ -3,7 +3,7 @@
 
 **MemoBot** is an open-source handheld memory game designed to teach embedded programming and electronics through a complete, real-world project.
 
-Inspired by the classic electronic memory game, MemoBot combines custom hardware and firmware into an educational platform suitable for hobbyists, students, and makers interested in learning how embedded systems work.
+Unlike typical Arduino examples, MemoBot demonstrates how a complete embedded product is designed, from hardware architecture and power management to firmware organization and user interaction.
 
 > **Project status:** Functional prototype. Firmware is stable and open source. Documentation and educational resources are currently under development.
 > 
