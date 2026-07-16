@@ -28,7 +28,7 @@ Unlike typical Arduino examples, MemoBot demonstrates how a complete embedded pr
 
 ## Repository Contents
 
-✔ Included
+### ✔ Included
 
 - Complete MemoBot firmware
 - Arduino-compatible source code
@@ -36,7 +36,7 @@ Unlike typical Arduino examples, MemoBot demonstrates how a complete embedded pr
 - Bill of Materials (BOM)         *(**work in progress**)*
 - Project documentation           *(**work in progress**)*
 
-✘ Not Included
+### ✘ Not Included
 
 - Production PCB design files
 - Gerber files
