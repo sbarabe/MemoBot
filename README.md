@@ -179,7 +179,6 @@ https://paypal.me/sbarab?country.x=CA&locale.x=fr_CA
 
 Thank you for helping make open-source educational hardware available to everyone.
 
-
 ---
 
 ## License
