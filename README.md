@@ -140,14 +140,6 @@ Planned additions include:
 
 ---
 
-## Contributing
-
-Suggestions, bug reports, and improvements are welcome.
-
-If you find a bug or have an idea for making MemoBot more educational or easier to build, feel free to open an Issue or submit a Pull Request.
-
----
-
 ## Getting Started
 
 Whether you're interested in building MemoBot, learning from the project, or experimenting with the hardware, you're welcome to get in touch.
@@ -164,6 +156,14 @@ If you're interested or have any questions, feel free to contact me:
 📧 **[SmartBuildsKits@gmail.com](mailto:SmartBuildsKits@gmail.com)**
 
 Since these are produced in small quantities, availability may vary.
+
+---
+
+## Contributing
+
+Suggestions, bug reports, and improvements are welcome.
+
+If you find a bug or have an idea for making MemoBot more educational or easier to build, feel free to open an Issue or submit a Pull Request.
 
 ---
 
