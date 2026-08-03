@@ -148,6 +148,40 @@ If you find a bug or have an idea for making MemoBot more educational or easier 
 
 ---
 
+## Getting Started
+
+Whether you're interested in building MemoBot, learning from the project, or experimenting with the hardware, you're welcome to get in touch.
+
+While the firmware is fully open source, I can also provide small-batch hardware on demand, including:
+
+* Fully assembled MemoBot PCBs
+* Educational kits
+* Individual electronic modules
+* Bare PCBs (subject to availability)
+
+If you're interested or have any questions, feel free to contact me:
+
+📧 **[SmartBuildsKits@gmail.com](mailto:SmartBuildsKits@gmail.com)**
+
+Since these are produced in small quantities, availability may vary.
+
+---
+
+## Support the Project
+
+If you find MemoBot useful for learning, teaching, or your own projects, consider supporting its continued development.
+
+Your support helps fund prototype hardware, documentation, educational content, and future open-source projects.
+
+❤️ **PayPal Donations**
+
+https://paypal.me/sbarab?country.x=CA&locale.x=fr_CA
+
+Thank you for helping make open-source educational hardware available to everyone.
+
+
+---
+
 ## License
 
 The MemoBot firmware is licensed under the **MIT License**.
